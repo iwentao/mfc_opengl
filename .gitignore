@@ -33,3 +33,4 @@
 
 # Exclude dir
 /x64/
+/.vs/

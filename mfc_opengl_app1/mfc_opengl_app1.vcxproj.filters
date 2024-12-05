@@ -15,6 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mfc_opengl_app1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_opengl_app1Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -24,25 +30,33 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mfc_opengl.h">
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="win32_opengl.cpp">
+    <ClCompile Include="mfc_opengl_app1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_opengl_app1Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="mfc_opengl.rc">
+    <ResourceCompile Include="mfcopenglapp1.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="small.ico">
+    <None Include="res\mfcopenglapp1.rc2">
       <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="mfc_opengl.ico">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mfc_opengl_app1.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
